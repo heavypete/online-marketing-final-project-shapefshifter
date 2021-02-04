@@ -1,0 +1,120 @@
+
+* {
+    background-color: #161A1D;
+    color: #BA181B;
+    font-family: 'Covered By Your Grace', cursive;
+    margin: 2%;
+    border color: border: #0b090a;
+}
+
+img {
+    align-items: center;
+
+}
+.merch-titles {
+    font-size: x-large;
+    color: #b1a7a6;
+}
+
+.pic-container {
+  position: relative;
+  text-align: center;
+  
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 20%;
+  border: 3em #660708;
+  padding: 10px;
+  display: block;
+
+}
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  border: 3em #660708;
+  padding: 10px;
+  display: block;
+  align-items: center;
+
+}
+
+
+.headline {
+text-indent: 20%;
+font-size: 500%;
+font-display: ;
+}
+.tagline {
+    text-align: center;
+    font-size: 300%;
+    text-rendering: geometricPrecision;
+}
+
+
+.navbar-items {
+    
+    text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: larger;
+  font-weight: bolder;
+  overflow: hidden;
+  background-color: #161A1D;
+}
+.navbar-item {
+  display: inline-block;
+  padding: 16px 18px;
+  list-style: none;
+}
+
+.navbar-link {
+  color: #e5383b;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px 18px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 80%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #a4161a;
+  color:#0b090a;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #e5383b;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #660708;
+  padding: 20px;
+}
+
+footer {
+    text-align: right;
+    display: block;
+  margin-right: 20ex;
+}
